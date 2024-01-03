@@ -590,6 +590,7 @@ body {
     background: linear-gradient(239deg, #59FFB9 -37.86%, #326CFF 92.79%);
 }
 
+
 .nav-list {
     display: flex;
 }
@@ -1019,6 +1020,14 @@ footer {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+    }
+
+    .parent-card-photo {
+        overflow: visible;
+    }
+
+    .parent-card-photo:hover .child-card-photo {
+        transform: none;
     }
 
 
